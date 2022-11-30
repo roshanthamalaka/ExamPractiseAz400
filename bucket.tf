@@ -4,6 +4,8 @@ resource "aws_s3_bucket" "prodbucket" {
   tags = {
     Name        = "rasnei-mahinda-bucket"
     Environment = "Prod"
+    CostCenter = "HR"
+
   }
 
 
