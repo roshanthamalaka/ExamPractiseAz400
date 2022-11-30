@@ -31,6 +31,7 @@ resource "aws_security_group" "websg" {
     #ipv6_cidr_blocks = "0.0.0.0/0"
   }
 
+  #Added this comment demonstrate go back to earlier version after commit No useful thing added 
   egress {
     from_port        = 0
     to_port          = 0
