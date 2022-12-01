@@ -7,6 +7,12 @@ resource "aws_route_table" "public" {
     #gateway_id = aws_internet_gateway.gw.id
   }
    
+  #Added Second Route after the change 
+   route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.gw.id
+  }
+
 
   tags = {
     Name = "public"
