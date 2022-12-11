@@ -24,3 +24,17 @@ resource "aws_s3_bucket" "prodbucket" {
   #Dummy Change 
 
 }
+
+#Observing Parallel Merge. This will be committed to main branch 
+resource "aws_s3_bucket" "prodbucket" {
+  bucket = "hukahan-mahinda-bucket"
+
+  tags = {
+    Name        = "hukahan-mahinda-bucket"
+    Environment = "Prod"
+    CostCenter = "Admin"
+
+  }
+  
+
+}
