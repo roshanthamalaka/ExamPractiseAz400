@@ -59,7 +59,10 @@ resource "aws_security_group" "websg" {
 
 #Second Time Check of Squash merge
 
+
+# Merge Using Pull rquest
   tags = {
     Name = "websg"
+    Owner  = "Puka"
   }
 }
