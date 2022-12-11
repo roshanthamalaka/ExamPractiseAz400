@@ -7,14 +7,17 @@ resource "aws_route_table" "public" {
     #gateway_id = aws_internet_gateway.gw.id
   }
    
-  #Added Second Route after the change 
+  #Added Second Route after the change to 
    route {
     cidr_block = "0.0.0.0/0"
     gateway_id = aws_internet_gateway.gw.id
   }
 
 
+#Checking Squash Merge. Commiting Feature Branch
   tags = {
     Name = "public"
   }
+
+
 }
