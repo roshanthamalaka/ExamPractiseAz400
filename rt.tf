@@ -17,6 +17,7 @@ resource "aws_route_table" "public" {
 #Checking Squash Merge. Commiting Feature Branch
   tags = {
     Name = "public"
+    Owner = "Paka"
   }
 
 
