@@ -19,6 +19,7 @@ resource "aws_route_table" "public" {
     Name = "public"
     Owner = "Paka"
     Checking = "Branch Protection Rule"
+    Second_Checking = "Branch Protection Rule Check2"
   }
 
 
