@@ -25,3 +25,4 @@ resource "aws_route_table" "public" {
 
 }
 #Second Time
+#Added a comment to check the Functionality of Branch Protection Rule 
