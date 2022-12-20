@@ -18,6 +18,7 @@ resource "aws_route_table" "public" {
   tags = {
     Name = "public"
     Owner = "Paka"
+    Checking = "Branch Protection Rule"
   }
 
 
